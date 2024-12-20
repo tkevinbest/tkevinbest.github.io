@@ -14,7 +14,7 @@ The prevailing paradigm in lower-limb robotic prosthesis control is to use hand-
 
 Learn more about our work in this video:
 
-[![Controlling a Powered Knee-Ankle Prosthesis with Automatic Adjustments to Walking Speed and Incline](http://img.youtube.com/vi/Iin6UqeT14A/2.jpg)](https://www.youtube.com/watch?v=Iin6UqeT14A "Controlling a Powered Knee-Ankle Prosthesis with Automatic Adjustments to Walking Speed and Incline")
+[![Controlling a Powered Knee-Ankle Prosthesis with Automatic Adjustments to Walking Speed and Incline](http://img.youtube.com/vi/Iin6UqeT14A/0.jpg)](https://www.youtube.com/watch?v=Iin6UqeT14A "Controlling a Powered Knee-Ankle Prosthesis with Automatic Adjustments to Walking Speed and Incline")
 
 The main publication detailing this work can be found [here in the IEEE Transactions on Robotics](https://ieeexplore.ieee.org/document/10017125). We've also extended this approach to [sit/stand](https://ieeexplore.ieee.org/document/10268252) and [stair traversal](https://ieeexplore.ieee.org/document/10302427).
 

@@ -43,4 +43,4 @@ These are class projects that are outside my core research area that I created d
 Coming soon
 
 ### Control of a Planar Ballbot with Obstacle Avoidance
-[](https://github.com/tkevinbest/Ballbot/blob/main/Documentation/gifs/TestMS_MPC_obstacle_AdobeExpress.gif)
+![Ballbot animation](https://github.com/tkevinbest/Ballbot/blob/main/Documentation/gifs/TestMS_MPC_obstacle_AdobeExpress.gif)

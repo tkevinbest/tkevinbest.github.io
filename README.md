@@ -51,9 +51,6 @@ We have worked with [Össur](https://www.ossur.com/en-us), one of the leading ma
 
 
 ## Academic Class Projects
-These are class projects that are outside my core research area that I created during grad school. 
-
-
 ### Control of a Planar Ballbot with Obstacle Avoidance
 
 This project was developed for an Applied Optimal Control course taught by Dr. Christian Hubicki in the Winter 2023 semester. I wrote a controller for a ballbot, which is a small, wheeled robot that balances on top of a basketball. The controller uses trajectory optimization and convex model predictive control (MPC) to navigate the world while staying balanced and avoiding obstacles. 

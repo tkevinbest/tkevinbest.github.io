@@ -2,7 +2,7 @@
 ## Bio
 <img src="assets/Best_Kevin.jpg" alt="headshot" width="200"/>
 
-I am a Ph.D. candidate in the Robotics Department at the University of Michigan. My research focuses on the control algorithms of robotic knee-ankle prostheses and their effects on user outcomes. In general, I am interested in dynamics, the control of robotic systems, optimization, and the human motor control. 
+I am a Ph.D. candidate in the Robotics Department at the University of Michigan. My research focuses on the control algorithms for robotic knee-ankle prostheses and their effects on user outcomes. In general, I am interested in dynamics, control, robotic systems, optimization, real-time software design, and human motor control. 
 
 # Projects
 
@@ -25,13 +25,13 @@ During the development of the controller, we also created a treadmill-based simu
 
 ### The Open-Source Leg (OSL)
 
-The Open-Source Leg project aims to accelerate research in the field of lower-limb robotic prostheses by providing a common research platform to the field. [Senthur Ayyappan](https://senthurayyappan.github.io/), a rockstar mechanical designer and software engineer currently maintains and leads the project along with PI Elliott Rouse at the University of Michigan. Full CAD design files, software libraries, and other resources are available to the public to use free of charge.  See [www.opensourceleg.org](https://www.opensourceleg.org/) for more information. 
+The Open-Source Leg project aims to accelerate research in the field of lower-limb robotic prostheses by providing a common research platform to the field. [Senthur Ayyappan](https://senthurayyappan.github.io/), a rockstar mechanical designer and software engineer, currently maintains and leads the project along with PI Elliott Rouse at the University of Michigan. Full CAD design files, software libraries, and other resources are available to the public to use free of charge.  See [www.opensourceleg.org](https://www.opensourceleg.org/) for more information. 
 
-In addition to helping Senthur with the [OSL library development](https://github.com/neurobionics/opensourceleg), I've worked on creating controllers for the OSL. [This paper](https://ieeexplore.ieee.org/document/10807510) details a control approach I developed that accounts for some of the inherent drivetrain dynamics of the OSL, allowing to perform accurate impedance control. 
+In addition to helping Senthur with the [OSL library development](https://github.com/neurobionics/opensourceleg), I've worked on creating controllers for the OSL. [This paper](https://ieeexplore.ieee.org/document/10807510) details a control approach I developed that accounts for some of the inherent drivetrain dynamics of the OSL, allowing it to perform accurate impedance control. 
 We've also released the Data-Driven Impedance Controller discussed above for public download from the [OSL Website](https://www.opensourceleg.org/control/research) so that other researchers can use it, benchmark against it, and build upon it. 
 
 ### Technology Commercialization in Partnership with Össur
-We have worked with Össur, who is one of the leading manufacturers in prosthesis technology, to test our control algorithms on their commercial hardware. The video below shows our data-driven variable impedance controller deployed on the Össur Power Knee. A key feature of our controller is its phase variable that synchronizes the leg's behavior to the user's intent. This allows Andrew to volitionally control the leg and kick the ball: 
+We have worked with [Össur](https://www.ossur.com/en-us), one of the leading manufacturers in prosthesis technology, to test our control algorithms on their commercial hardware. The video below shows our data-driven variable impedance controller deployed on the Össur Power Knee. A key feature of our controller is its phase variable that synchronizes the leg's behavior to the user's intent. This allows Andrew to volitionally control the leg and kick the ball: 
 
 [![Kickball with user-synchronized control of the PowerKnee, a robotic prosthetic leg](http://img.youtube.com/vi/KYwz9VPTB7s/0.jpg)](https://www.youtube.com/watch?v=KYwz9VPTB7s "Kickball with user-synchronized control of the PowerKnee, a robotic prosthetic leg")
 

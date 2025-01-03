@@ -1,13 +1,28 @@
 # About Me
-<img src="assets/Best_Kevin.jpg" alt="headshot" width="200"/>
 
-I am a Ph.D. candidate in the Robotics Department at the University of Michigan. My research focuses on the control algorithms for robotic knee-ankle prostheses and their effects on user outcomes. In general, I am interested in dynamics, control, robotic systems, optimization, real-time software design, and human motor control. 
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+    <div style="flex: 1; padding: 20px;">
+        <p>I am a Ph.D. candidate in the Robotics Department at the University of Michigan. My research focuses on developing control algorithms for robotic knee-ankle prostheses and how different controllers affect user outcomes. In general, I am interested in dynamics, control, robotic systems, optimization, real-time software design, and human motor control. 
+</p>
+    </div>
+    <div style="flex: 1; padding: 20px;">
+        <img src="assets/Best_Kevin.jpg" alt="Description of photo" style="max-width: 100%; height: auto; display: block;">
+    </div>
+</div>
 
 # Projects
+This website lists some of the projects that I have worked on during my time in grad school. These are a mix of course and research projects: 
+- [Data-Driven Impedance Controllers for Knee-Ankle Prostheses](#data-driven-impedance-control-for-knee-ankle-prostheses)
+- [Software and Control Development for the Open-Source Leg](#the-open-source-leg-osl)
+- [Tech Commercialization with Össur](#technology-commercialization-in-partnership-with-össur)
+- [Convex MPC for A Ballbot](#control-of-a-planar-ballbot-with-obstacle-avoidance)
+- [Contact-Implicit DDP for Legged Robots](#data-driven-impedance-control-for-knee-ankle-prostheses)
+
+For my full list of publications, please reference my [Google Scholar](https://scholar.google.com/citations?user=P5lqq8YAAAAJ&hl=en). 
+
+
 
 ## Core Research
-The list below highlights some of the core research projects that I have worked on during my time at Michigan Robotics. For my full list of publications, please reference my [Google Scholar](https://scholar.google.com/citations?user=P5lqq8YAAAAJ&hl=en). 
-
 ### Data-Driven Impedance Control For Knee-Ankle Prostheses
 The prevailing paradigm in lower-limb robotic prosthesis control is to use hand-designed controllers with heuristically tuned behaviors. While these approaches can be very effective, they are labor-intensive in both the design of the behaviors and in individualizing them to each individual at the point-of-care. In this work, we instead developed a data-driven control architecture that allowed the prosthesis to work over continuums of tasks without requiring manual tuning. 
 
@@ -38,6 +53,15 @@ We have worked with [Össur](https://www.ossur.com/en-us), one of the leading ma
 ## Academic Class Projects
 These are class projects that are outside my core research area that I created during grad school. 
 
+
+### Control of a Planar Ballbot with Obstacle Avoidance
+
+This project was developed for an Applied Optimal Control course taught by Dr. Christian Hubicki in the Winter 2023 semester. I wrote a controller for a ballbot, which is a small, wheeled robot that balances on top of a basketball. The controller uses trajectory optimization and convex model predictive control (MPC) to navigate the world while staying balanced and avoiding obstacles. 
+
+A repo containing more information and the control code is [available here](https://github.com/tkevinbest/Ballbot).
+
+![Ballbot animation](assets/TestMS_MPC_obstacle_AdobeExpress.gif)
+
 ### Contact-Implicit Differential Dynamic Programming
 
 This project was developed for my Legged Robots course at the University of Michigan taught by Prof. Yanran Ding in the Winter 2024 semester. This work mainly follows the publication from Kim et al. "Contact-Implicit Differential Dynamic Programming for Model Predictive Control with Relaxed Complementarity Constraints", IROS 2022.
@@ -63,13 +87,3 @@ _Forward Hopper:_ Likewise if we command a simple horizontal velocity reference,
 
 
 The full report detailing this controller and the mathematical underpinnings can be [found here](/assets/contact-implicit-ddp-report.pdf). Unfortunately, the base repository for my code is not public. If you are interested in seeing it, please email me and I can request that you are given access. 
-
-
-
-### Control of a Planar Ballbot with Obstacle Avoidance
-
-This project was developed for an Applied Optimal Control course taught by Dr. Christian Hubicki in the Winter 2023 semester. I wrote a controller for a ballbot, which is a small, wheeled robot that balances on top of a basketball. The controller uses trajectory optimization and convex model predictive control (MPC) to navigate the world while staying balanced and avoiding obstacles. 
-
-A repo containing more information and the control code is [available here](https://github.com/tkevinbest/Ballbot).
-
-![Ballbot animation](assets/TestMS_MPC_obstacle_AdobeExpress.gif)
